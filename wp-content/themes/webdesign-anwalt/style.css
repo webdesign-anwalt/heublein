@@ -53,7 +53,7 @@ section{padding:30px 0;}
 article{padding-bottom:20px; clear:both;margin-left:auto;marign-right:auto;}
 .container{padding:o;margin-right:auto;margin-left:auto;}
 #vordemfooter{min-height:100%;margin-bottom:-20px;}
-.lobster {font-family: lobster;color:orange;font-stretch: 22px;}
+.lobster {font-family: lobster;color:orange;font-size: 22px;}
 
 /*
  * Override Bootstrap's default container.
@@ -470,5 +470,5 @@ body{min-width:250px;}
 .inhaltsbereich > div,.blog-footer > div{flex:100%;padding: 10px 5px;}
 .blog-sidebar{display: none;}
 .beitrag-anwalt{order:1;}
-.flexkinder > div{flex:100%;}
+.flexkinder > div{flex:100;}
 }
