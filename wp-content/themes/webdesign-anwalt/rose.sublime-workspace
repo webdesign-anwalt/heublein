@@ -32,18 +32,18 @@
 	"buffers":
 	[
 		{
-			"file": "wp-content/themes/webdesign-anwalt/style.css",
+			"file": "/C/xamppp/htdocs/rose/wp-content/themes/webdesign-anwalt/header.php",
 			"settings":
 			{
-				"buffer_size": 10255,
+				"buffer_size": 1810,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "wp-content/themes/webdesign-anwalt/header.php",
+			"file": "/C/xamppp/htdocs/rose/wp-content/themes/webdesign-anwalt/style.css",
 			"settings":
 			{
-				"buffer_size": 1526,
+				"buffer_size": 12105,
 				"line_ending": "Windows"
 			}
 		}
@@ -81,13 +81,16 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xamppp/htdocs/heublein",
-		"/C/xamppp/htdocs/heublein/wp-content/themes",
-		"/C/xamppp/htdocs/heublein/wp-content/themes/webdesign-anwalt",
-		"/C/xamppp/htdocs/heublein/wp-content/themes/webdesign-anwalt/css"
+		"/C/xamppp/htdocs/rose",
+		"/C/xamppp/htdocs/rose/wp-content",
+		"/C/xamppp/htdocs/rose/wp-content/themes",
+		"/C/xamppp/htdocs/rose/wp-content/themes/webdesign-anwalt"
 	],
 	"file_history":
 	[
+		"/C/xamppp/htdocs/rose/.gitignore",
+		"/C/xamppp/htdocs/heublein/wp-content/themes/webdesign-anwalt/header.php",
+		"/C/xamppp/htdocs/heublein/wp-content/themes/webdesign-anwalt/style.css",
 		"/C/xamppp/htdocs/heublein/.gitignore",
 		"/C/xamppp/htdocs/heublein/wp-content/themes/webdesign-anwalt/page.php",
 		"/C/xamppp/htdocs/heublein/wp-content/themes/webdesign-anwalt/functions.php",
@@ -113,6 +116,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"header",
 			"heaD",
 			"header",
 			"heade",
@@ -142,55 +146,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "wp-content/themes/webdesign-anwalt/style.css",
+					"file": "/C/xamppp/htdocs/rose/wp-content/themes/webdesign-anwalt/header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10255,
+						"buffer_size": 1810,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1476,
-								1476
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 693.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "wp-content/themes/webdesign-anwalt/header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1526,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1518,
-								1521
+								0,
+								0
 							]
 						],
 						"settings":
@@ -204,6 +177,37 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xamppp/htdocs/rose/wp-content/themes/webdesign-anwalt/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5539,
+								5539
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5073.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -245,7 +249,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "heublein.sublime-project",
+	"project": "rose.sublime-project",
 	"replace":
 	{
 		"height": 52.0
