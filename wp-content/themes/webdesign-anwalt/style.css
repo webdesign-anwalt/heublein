@@ -193,7 +193,10 @@ background:#2F353D;
   font-size: 2vw;
   color:white;
   text-align: center;
+  margin-top:10px;
 }
+
+.blog-description span{font-size:1.5vw;margin-top:-10px;};
 
 .sticky {}
 .gallery-caption {}
@@ -315,6 +318,19 @@ header > div {background:rgba(0,0,0,0.3);padding:15px;}
 .page-id-111 header,.page-id-123 header,.page-id-117 header{height: 100vh;}
 
 
+/* Seiten Startseite ... */
+.startseite_logos{background: none; text-align:center;}
+.startseite_logos > div:nth-child(odd) {color:white;padding:10px;margin:10px; 
+  background:rgba(0,0,0,0.4); position:relative;width:200px;}
+.startseite_logos > div:nth-child(odd):before {display: block;content:" "; padding-top:100%;}
+.startseite_logos > div:nth-child(odd) >div {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
 /*
  * Blog posts
  */
@@ -413,25 +429,24 @@ a:hover{color:inherit;}
 
 
 .flexkinder{
-	  display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-justify-content: start;
-    -ms-flex-pack: start;
-    justify-content: start;
-    -webkit-align-content: stretch;
-    -ms-flex-line-pack: stretch;
-    align-content: stretch;
-    -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .centerContent{
@@ -442,6 +457,9 @@ a:hover{color:inherit;}
 
 
 .flexkinder >  div{margin-right:10px;border:1px solid #ccc; padding:5px;   flex: 1 1 30%;}
+
+
+
 
 
 /* Media Querys */

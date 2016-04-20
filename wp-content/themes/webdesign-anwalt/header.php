@@ -28,6 +28,17 @@
       }
     ?> 
     >
-        <div><h1 class="blog-title"><?php the_title(); ?></h1>
-        <p class="lead blog-description"><?php bloginfo( 'name' ); ?> | <?php bloginfo( 'description' ); ?>  </p></div>
+      <?php if( is_front_page()) { ?>
+        <div class="startseite_logos">
+          <div><div><h2>Heublein & Heublein</h2><p>Anwaltskanzlei</p></div></div> 
+          <div><h2>&</h2></div>
+          <div><div><h2>Annett Stolze</h2><p>Anwaltskanzlei</p></div>
+        </div>
+      <?php } else { ?>
+        <div><div><h1 class="blog-title"><?php the_title(); ?></h1>
+          <p class="lead blog-description"><?php bloginfo( 'name' ); ?> <br /><span> <?php bloginfo( 'description' ); ?> </span> </p>
+          </div>
+        </div>
+
+      <?php }  ?>
       </header>

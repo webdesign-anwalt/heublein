@@ -81,10 +81,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xamppp/htdocs/heublein",
-		"/C/xamppp/htdocs/heublein/wp-content/themes",
-		"/C/xamppp/htdocs/heublein/wp-content/themes/webdesign-anwalt",
-		"/C/xamppp/htdocs/heublein/wp-content/themes/webdesign-anwalt/css"
+		"/C/xamppp/htdocs/heublein"
 	],
 	"file_history":
 	[
@@ -158,8 +155,8 @@
 						"selection":
 						[
 							[
-								1476,
-								1476
+								1747,
+								1747
 							]
 						],
 						"settings":
@@ -170,7 +167,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 693.0,
+						"translation.y": 3676.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
