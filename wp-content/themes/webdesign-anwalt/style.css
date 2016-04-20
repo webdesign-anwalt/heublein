@@ -321,7 +321,7 @@ header > div {background:rgba(0,0,0,0.3);padding:15px;}
 /* Seiten Startseite ... */
 .startseite_logos{background: none; text-align:center;}
 .startseite_logos > div:nth-child(odd) {color:white;padding:10px;margin:10px; 
-  background:rgba(0,0,0,0.4); position:relative;width:200px;}
+  background:rgba(38,52,97,.4); position:relative;width:200px;}
 .startseite_logos > div:nth-child(odd):before {display: block;content:" "; padding-top:100%;}
 .startseite_logos > div:nth-child(odd) >div {
   position: absolute;
@@ -329,6 +329,7 @@ header > div {background:rgba(0,0,0,0.3);padding:15px;}
   left: 0;
   right: 0;
   transform: translateY(-50%);
+  padding-top:15px;
 }
 
 /*
